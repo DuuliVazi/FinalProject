@@ -1,0 +1,106 @@
+body {
+    background-color: crimson;
+    background-image: linear-gradient(125deg, yellow, crimson 70%);
+}
+
+table, th, td {
+    border: 5px ridge darkgreen;
+    border-style:groove;
+    text-align: center; 
+    vertical-align: middle;
+  }
+  table {
+    width: 85%;
+  }
+table, th {
+    font-style: bold italic;
+    font-size: 30px;
+    font-variant: small-caps;
+}
+h1, h3 {
+    font-family: "Audiowide", sans-serif;
+}
+h3 {
+    transform:skewX(28deg);
+    font-size: 35px;
+    font-variant-caps: all-petite-caps;
+    font-family:fantasy;
+}
+.hint {
+    background-color:lightgray;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-style:italic;
+    cursor:help;
+    text-align: center;
+    text-decoration: none;
+    outline:black;
+    color:chocolate;
+    border:none;
+    border-radius: 15px;
+    box-shadow: 0 5px seagreen;
+  }
+.hint:hover {background-image:linear-gradient(90deg, lightgreen, lightblue 50%)};
+
+.hint:active {
+  background-color:crimson;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.answer {
+    animation: glowing 1300ms infinite;
+    background-color:lightgray;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-style:italic;
+    cursor:crosshair;
+    text-align: center;
+    text-decoration: none;
+    outline:black;
+    color:chocolate;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px seagreen;
+}
+.answer:hover {background-color:green}
+
+.answer:active {
+  background-color:crimson;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+a {
+    font-weight: bold;
+    font-size: 20px;
+    animation: glowing 1300ms infinite;
+    color:blue;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+a:hover {
+    color: hotpink;
+  }
+
+@keyframes glowing {
+    0% {
+      background-color: #2ba805;
+      box-shadow: 0 0 5px #2ba805;
+    }
+    50% {
+      background-color: #49e819;
+      box-shadow: 0 0 20px #49e819;
+    }
+    100% {
+      background-color: #2ba805;
+      box-shadow: 0 0 5px #2ba805;
+    }
+    
+     
+   
+    
+
+
+
+}
